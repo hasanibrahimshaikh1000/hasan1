@@ -1,0 +1,114 @@
+footer {
+  background-color: rgb(84, 164, 144);
+  padding: 2.5px;
+  text-align: center;
+  
+}
+body{
+  background-image: url('https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+.menu-body {
+  width: 100%;
+  background-color: black;
+  height: max-content;
+}
+
+.menu-body .company-content {
+  margin-top: 10px;
+}
+
+.menu-body .company-content a {
+  font-size: 30px;
+  color: black;
+  padding: 15px 40px;
+}
+
+.menu-body .company-content a:hover {
+  font-size: 32px;
+  text-shadow: 0 0 2px #0f15bb;
+}
+
+.company-content a {
+  text-decoration: none;
+  text-decoration-color: black;
+  font-size: large;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.company-content,
+.navbar-content {
+  width: 50%;
+  float: left;
+  margin-top: 10px;
+}
+
+.navbar-content {
+  background-color: rgba(236, 10, 10, 0.097);
+  border-radius: 25px 0px 0px 25px;
+}
+
+.navbar-content-items .nav-item {
+  padding: 5px 10px;
+  float: left;
+  list-style-type: none;
+  margin: 5px;
+}
+
+.navbar-content-items .nav-item a:hover {
+  background-color: rgb(16, 166, 91);
+  color: rgb(35, 30, 30);
+  border-radius: 5px;
+}
+
+.navbar-content-items {
+  margin-top: 0;
+}
+
+.navbar-content-items .nav-item a {
+  text-decoration: none;
+  color: rgb(8, 7, 7);
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.card-imgtop{
+
+  width: 60%;
+  height: 50%;
+ 
+}
+h5 {
+  margin: 20px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.fail {
+  background-color: rgb(86, 73, 73);
+  color: rgb(18, 197, 51);
+  margin-right: 5px;
+}
+
+.pass {
+  background-color: rgb(103, 91, 91);
+  color: rgb(244, 13, 13);
+  margin-right: 5px;
+}
